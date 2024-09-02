@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #05052C;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-bar {
+    background-color: rgba(51, 51, 51, 0);
+    color: #fff;
+    padding: 1em;
+    text-align: right;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #ccc;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px;
+}
+
+section {
+    background-color: #121B2A;
+    padding: 15px;
+    margin-bottom: 85px;
+    box-shadow: 0 0 20px #254B91;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+p{
+    color: #3A7EDD;
+}
+
+.element{
+    display: flex ; 
+    justify-content: center;
+}
+
+.bg-element{
+    display: flex ; 
+    justify-content: center;
+    background-color: #121B2A;
+    color: #ffffff;
+}
+
+#fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure the header is on top of other elements */
+}
+
+main {
+    padding-top: 80px; /* Add padding to main content to account for fixed header */
+}
